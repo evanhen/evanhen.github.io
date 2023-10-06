@@ -512,30 +512,23 @@
                             </div>
                         </div>
                     </div>
-
-                    <form action="mailto:evanhendrickso2@gmail.com" method="get" enctype="text/plain" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label" ></label>
-                                <input type="text" class="contact__input" placeholder="Name">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label"></label>
-                                <input type="email" class="contact__input" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input" placeholder="Message"></textarea>
-                        </div>
-                        
-                        <div>
-                            <a href="#" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
-                    </form>
+                    <head>
+                          <meta charset="UTF-8">
+                          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                          <title>Contact Form</title>
+                        </head>
+                        <body>
+                          <form action="mailto:evanhendrickso2@gmail.com" method="get" enctype="text/plain">
+                            Subject:<br>
+                            <input type="text" name="subject" placeholder="Your Name"><br>
+                            Email:<br>
+                            <input type="email" name="email" placeholder="Your Email"><br>
+                            Message:<br>
+                            <textarea name="body" rows="5" cols="30" placeholder="Your Message"></textarea><br>
+                            <input type="submit" value="Send">
+                          </form>
+                        </body>
+                        </html>
                 </div>
 
             </section>
