@@ -492,6 +492,10 @@ img {
   background-color: var(--first-color);
 }
 
+.skills__python {
+  width: 90%
+}
+
 .skills__pandas {
   width: 90%;
 }
