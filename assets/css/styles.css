@@ -845,6 +845,7 @@ img {
 .contact__information {
   display: flex;
   margin-bottom: var(--mb-2);
+  align-items: center;
 }
 
 .contact__icon {
@@ -867,7 +868,6 @@ img {
   background-color: var(--input-color);
   border-radius: .5rem;
   padding: .75rem 1rem .25rem;
-  align-items: center;
 }
 
 .contact__label {
