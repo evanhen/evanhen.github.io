@@ -762,6 +762,8 @@ img {
 
 .swiper-pagination-bullet-active {
   background-color: var(--first-color);
+  bottom: -4.5rem;
+  /*can delete above line*/
 }
 
 .swiper-button-prev,
@@ -928,7 +930,7 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: var(--title-color);
   margin-top: var(--mb-3);
 }
 
